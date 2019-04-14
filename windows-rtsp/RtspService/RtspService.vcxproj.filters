@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3df77922-57ac-473e-a5d9-d081a983379c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{1be1c817-0083-41c5-aea8-ed971ace5fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rtsp">
+      <UniqueIdentifier>{27b3fd21-c10e-47fc-b311-1684c1a26f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{bc061a28-4f74-4dae-891d-35ea0c4091ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a260ecd2-3ff6-473f-909f-c37c4798994b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H264.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_slice.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_sps.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RtspService.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RtspService_t.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="vlc_bits.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\cmd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\string_t.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TLock.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\VBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\VBufferT.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\BaseEncoder.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\Bitstream.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaSession.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStream.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamAMR.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamH263.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamH264.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamMP4A.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamMP4ALatm.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamMP4V.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\MediaStreamTransport.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\RtpTransport.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\Rtsp.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\RtspResponse.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\RtspSession.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\RtspTransport.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Rtp.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Tcp.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Udp.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RtspService.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RtspService_t.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\Bitstream.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaSession.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStream.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamAMR.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamH263.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamH264.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamMP4A.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamMP4ALatm.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamMP4V.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\MediaStreamTransport.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\RtpTransport.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\Rtsp.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\RtspResponse.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\RtspSession.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\RtspTransport.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Rtp.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Tcp.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Udp.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

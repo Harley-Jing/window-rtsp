@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d2376410-6398-4d8a-aba3-4e9f3bf804d4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Rtsp">
+      <UniqueIdentifier>{a90ad440-9710-46a9-a8e3-8b71960baef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{19cb4e88-b485-4029-af05-6f4cf20c85e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{42b7676e-1623-4955-b6a1-a1a9cc6732df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e0198042-e376-4885-b16c-0a5b9d6a1e41}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RtspClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\Rtsp.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rtsp\RtspRequest.cpp">
+      <Filter>Rtsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Rtp.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Tcp.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Network\Udp.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\Rtsp.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Rtsp\RtspRequest.h">
+      <Filter>Rtsp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Rtp.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Tcp.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Network\Udp.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\cmd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\string_t.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TLock.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\VBuffer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\VBufferT.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

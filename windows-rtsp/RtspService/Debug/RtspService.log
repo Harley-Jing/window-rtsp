@@ -1,0 +1,69 @@
+﻿生成启动时间为 2019/4/9 16:23:22。
+     1>项目“D:\cpp\windows-rtsp\RtspService\RtspService.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\vs2015Cpp\VC\bin\CL.exe /c /I..\include /I..\network /I..\rtsp /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp".\Debug\RtspService.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         D:\vs2015Cpp\VC\bin\CL.exe /c /I..\include /I..\network /I..\rtsp /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\RtspService.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Network\Rtp.cpp ..\Network\Socket.cpp ..\Network\Tcp.cpp ..\Network\Udp.cpp ..\Rtsp\Bitstream.cpp ..\Rtsp\MediaSession.cpp ..\Rtsp\MediaStream.cpp ..\Rtsp\MediaStreamAMR.cpp ..\Rtsp\MediaStreamH263.cpp ..\Rtsp\MediaStreamH264.cpp ..\Rtsp\MediaStreamMP4A.cpp ..\Rtsp\MediaStreamMP4ALatm.cpp ..\Rtsp\MediaStreamMP4V.cpp ..\Rtsp\MediaStreamTransport.cpp ..\Rtsp\RtpTransport.cpp ..\Rtsp\Rtsp.cpp ..\Rtsp\RtspResponse.cpp ..\Rtsp\RtspSession.cpp ..\Rtsp\RtspTransport.cpp RtspService.cpp RtspService_t.cpp
+         RtspService_t.cpp
+     1>d:\cpp\windows-rtsp\rtspservice\H264.h(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cpp\windows-rtsp\rtspservice\RtspService.h(156): warning C4244: “参数”: 从“int64_t”转换到“INT32”，可能丢失数据
+         RtspService.cpp
+     1>d:\cpp\windows-rtsp\rtspservice\H264.h(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\cpp\windows-rtsp\rtspservice\RtspService.h(156): warning C4244: “参数”: 从“int64_t”转换到“INT32”，可能丢失数据
+         RtspTransport.cpp
+         RtspSession.cpp
+         RtspResponse.cpp
+         Rtsp.cpp
+         RtpTransport.cpp
+         MediaStreamTransport.cpp
+         MediaStreamMP4V.cpp
+     1>..\Rtsp\MediaStreamMP4V.cpp(200): warning C4101: “e”: 未引用的局部变量
+     1>..\Rtsp\MediaStreamMP4V.cpp(230): warning C4101: “e”: 未引用的局部变量
+     1>..\Rtsp\MediaStreamMP4V.cpp(382): warning C4101: “e”: 未引用的局部变量
+         MediaStreamMP4ALatm.cpp
+         MediaStreamMP4A.cpp
+         MediaStreamH264.cpp
+         MediaStreamH263.cpp
+         MediaStreamAMR.cpp
+         MediaStream.cpp
+     1>..\Rtsp\MediaStream.cpp(30): warning C4244: “=”: 从“double”转换到“UINT”，可能丢失数据
+         MediaSession.cpp
+         Bitstream.cpp
+         Udp.cpp
+         Tcp.cpp
+         Socket.cpp
+         正在生成代码...
+         正在编译...
+         Rtp.cpp
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\cpp\windows-rtsp\RtspService\.\Debug\RtspService.exe) does not match the Linker's OutputFile property value (D:\cpp\windows-rtsp\Bin\RtspServiceD.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(RtspService) does not match the Linker's OutputFile property value (RtspServiceD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\vs2015Cpp\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Bin\RtspServiceD.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug\RtspService.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RtspService.lib" /MACHINE:X86 /SAFESEH .\Debug\Rtp.obj
+         .\Debug\Socket.obj
+         .\Debug\Tcp.obj
+         .\Debug\Udp.obj
+         .\Debug\Bitstream.obj
+         .\Debug\MediaSession.obj
+         .\Debug\MediaStream.obj
+         .\Debug\MediaStreamAMR.obj
+         .\Debug\MediaStreamH263.obj
+         .\Debug\MediaStreamH264.obj
+         .\Debug\MediaStreamMP4A.obj
+         .\Debug\MediaStreamMP4ALatm.obj
+         .\Debug\MediaStreamMP4V.obj
+         .\Debug\MediaStreamTransport.obj
+         .\Debug\RtpTransport.obj
+         .\Debug\Rtsp.obj
+         .\Debug\RtspResponse.obj
+         .\Debug\RtspSession.obj
+         .\Debug\RtspTransport.obj
+         .\Debug\RtspService.obj
+         .\Debug\RtspService_t.obj
+         .\Debug\StdAfx.obj
+         RtspService.vcxproj -> D:\cpp\windows-rtsp\RtspService\.\Debug\RtspService.exe
+     1>已完成生成项目“D:\cpp\windows-rtsp\RtspService\RtspService.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:07.06

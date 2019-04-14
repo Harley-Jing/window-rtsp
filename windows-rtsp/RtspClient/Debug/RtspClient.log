@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/4/12 16:10:42。
+     1>项目“D:\cpp\windows-rtsp\RtspClient\RtspClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2015Cpp\VC\bin\CL.exe /c /I..\include /I..\network /I..\rtsp /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\RtspClient.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt RtspClient.cpp
+         RtspClient.cpp
+       Link:
+         D:\vs2015Cpp\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\RtspClient.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug\RtspClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RtspClient.lib" /MACHINE:X86 /SAFESEH .\Debug\Rtp.obj
+         .\Debug\Socket.obj
+         .\Debug\Tcp.obj
+         .\Debug\Udp.obj
+         .\Debug\Rtsp.obj
+         .\Debug\RtspRequest.obj
+         .\Debug\RtspClient.obj
+         .\Debug\StdAfx.obj
+         RtspClient.vcxproj -> D:\cpp\windows-rtsp\RtspClient\.\Debug\RtspClient.exe
+     1>已完成生成项目“D:\cpp\windows-rtsp\RtspClient\RtspClient.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.56

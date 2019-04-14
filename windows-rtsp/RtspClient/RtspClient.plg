@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RtspClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\cjb\LOCALS~1\Temp\RSP102.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\include" /I "..\network" /I "..\rtsp" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/RtspClient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\RtspClient\RtspClient.cpp"
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\Rtsp\Rtsp.cpp"
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\Rtsp\RtspRequest.cpp"
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\Network\Rtp.cpp"
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\Network\Socket.cpp"
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\Network\Tcp.cpp"
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\Network\Udp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cjb\LOCALS~1\Temp\RSP102.tmp" 
+Creating temporary file "C:\DOCUME~1\cjb\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /Zi /Od /I "..\include" /I "..\network" /I "..\rtsp" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/RtspClient.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\cjb\桌面\cjb\6完整的RTP RTSP代码库\RTSP\RtspClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cjb\LOCALS~1\Temp\RSP103.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+RtspClient.cpp
+Rtsp.cpp
+RtspRequest.cpp
+Rtp.cpp
+Socket.cpp
+Tcp.cpp
+Udp.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\cjb\LOCALS~1\Temp\RSP104.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/RtspClientD.pdb" /debug /machine:I386 /out:"..\Bin\RtspClientD.exe" /pdbtype:sept 
+".\Debug\RtspClient.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Rtsp.obj"
+".\Debug\RtspRequest.obj"
+".\Debug\Rtp.obj"
+".\Debug\Socket.obj"
+".\Debug\Tcp.obj"
+".\Debug\Udp.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\cjb\LOCALS~1\Temp\RSP104.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/RtspClient.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\RtspClient.sbr" ".\Debug\Rtsp.sbr" ".\Debug\RtspRequest.sbr" ".\Debug\Rtp.sbr" ".\Debug\Socket.sbr" ".\Debug\Tcp.sbr" ".\Debug\Udp.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+RtspClientD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
